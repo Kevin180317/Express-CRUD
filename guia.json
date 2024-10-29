@@ -1,0 +1,37 @@
+{
+    "requests": [
+      {
+        "description": "Obtener todos los juegos",
+        "method": "GET",
+        "url": "http://localhost:3000/juegos",
+        "body": null
+      },
+      {
+        "description": "Crear un nuevo juego",
+        "method": "POST",
+        "url": "http://localhost:3000/juegos",
+        "body": {
+          "id": 1,
+          "nombre": "The Legend of Zelda",
+          "genero": "Aventura",
+          "descripcion": "Juego de aventura y acción en un mundo abierto."
+        }
+      },
+      {
+        "description": "Actualizar un juego existente",
+        "method": "PUT",
+        "url": "http://localhost:3000/juegos/1",
+        "body": {
+          "nombre": "The Legend of Zelda: Breath of the Wild",
+          "descripcion": "Una épica aventura de mundo abierto en Hyrule."
+        }
+      },
+      {
+        "description": "Eliminar un juego",
+        "method": "DELETE",
+        "url": "http://localhost:3000/juegos/1",
+        "body": null
+      }
+    ]
+  }
+  
